@@ -1,0 +1,226 @@
+*{
+    margin: 0;  /*margen como espacio externo*/
+    padding: 0; /*margen como espacio interno*/
+}
+
+body{
+    text-align: center;   /*texto centrado*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  /*fuente*/
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.68);  /*color de fondo*/
+    color: aqua;
+    height: 4em;   /*alto*/
+    position: fixed;    /*que el elemento no se mueva de una posicion*/
+    width: 100%;
+}
+
+nav ul li{
+    display: inline-block;  /*alinear horizontalmente*/
+    margin-right: 2em;
+    line-height: 4em;  /*alimear verticalmente en un alto determinado*/
+}
+
+nav ul li a{
+    color: aqua;  /*color de fuente*/
+    font-size: 1.3em;  /*tamaño de la fuente en medida proporcional*/
+    text-decoration: none;  /*decoracion de texto = ninguna*/
+}
+
+nav ul li a:hover{  /*hover es cuando el puntero del mouse este sobre*/
+    color: white;
+}
+
+header{
+    background-image: url('../img/lovepik-technological-background-image_402010515.jpg');  /*imagen de fondo*/
+    background-repeat: no-repeat;  /*evitar que se repita la img*/
+    background-size: cover;  /*cubra todo el fondo*/
+    padding: 2em 0em;
+}
+
+.mi-foto{
+    border-radius: 50%;   /*redondear bordes*/
+    border: 5px aqua solid;  /*borde con ancho color y estilo*/
+    width: 20%;
+}
+
+/* #prueba{
+    border: 2px red solid;
+    width: 50%;
+    margin: 3em auto;
+    padding: 2em;
+} */
+
+h1{
+    color: black;
+    text-shadow: 2px -2px 5px white;  
+    /*sombra de texto ejeX ejeY grosor color*/
+}
+
+header a{
+    color: crimson;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: white;
+}
+
+section{
+    width: 80%;
+    margin: 2em auto;
+    padding: 2em;
+    box-shadow: 0px 0px 20px 5px black;
+    /*sombre de caja, ejeX ejeY difuminado tamaño color*/
+}
+
+section h2{
+    color: aqua;
+    border-bottom: 4px aqua dashed;
+    margin: 2em 0;
+    font-size: 1.8em;
+    font-weight: bold;  /*ancho de la fuente*/
+}
+
+#perfil p{
+    margin-bottom: 1em;
+}
+
+.destacado{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: rgb(92, 92, 92);
+}
+
+.azul{
+    color: blue;
+    border:6px double;
+    border-radius: 40%;
+    background-color: white;
+    margin: 1em;
+    padding: 0.50em;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+.azul:hover{
+    color: gray;
+}
+
+.gris{
+    color: gray;
+    border:6px double;
+    border-radius: 40%;
+    background-color: white;
+    margin: 1em;
+    padding: 0.50em;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+.gris:hover{
+    color: blue;
+}
+
+.fila{ 
+    /* border: 1px red dashed;  */
+    margin-bottom: 1em;
+}
+
+.col{
+    display: inline-block;
+    vertical-align: top;  /*para alinear el contenido desde arriba*/
+    text-align: left;    /*alinear texto a la izquierda*/
+}
+
+#estudios .col{
+    /* border: 1px green dashed;  */
+    width: 45%;
+}
+
+#habilidades .col{
+    width: 30%;
+}
+/* las imagenes se adecuan al tamaño maximo de su caja padre */
+img{
+    max-width: 100%;
+}
+
+.logos{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.texto{
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#proyectos .col{
+    width: 45%;
+    margin-right: 2em;
+}
+
+.formulario{
+    display: block;    /* Alineacion vertical */
+    border: 3px aqua solid;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 15px;
+}
+
+#contactos .col{
+    width: 25%;
+}
+
+#contactos .mapa{
+    width: 40%;
+}
+
+#contactos h3{
+    margin-top: 1em;
+}
+
+.enviar:hover{
+    background-color: blue;
+    color: white;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 3em;
+}
+
+footer i{
+    font-size: 2em;
+    margin: 0.5em 0.3em;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.flecha{
+    box-shadow: 0px 0px 5px 5px black;
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: rgb(255, 253, 253);
+    font-size: 2em;
+    border-radius: 50%;
+}
+
+.flecha a{
+    color: black;
+}
